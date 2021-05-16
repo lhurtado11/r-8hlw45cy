@@ -19,7 +19,7 @@ class App extends Component {
   }
   updateCase() {
     this.setState({
-     value: true
+     value: !this.state.value
     });
   }
 }
